@@ -15,6 +15,8 @@ En este punto vamos a aprender a instalar Odoo en cloud, para este ejemplo usare
    ![Precios Odoo](../assets/img/03-instalacion/Pantalla%20Inicial%20de%20Precios.png)
 
    Veremos las diferentes suscripciones eligiendo entre pagos anuales o mensuales, nosotros en este caso de prueba nosotros elegiremos la opción de **prueba gratuita** del **plan Estándar**.
+
+   ---
 2. **Seleccionar apps iniciales** (máximo 10 en la prueba):
    Tras pinchar en la prueba gratuita veremos la siguiente pantalla para elegir hasta 10 módulos de prueba, iremos seleccionándolos uno a uno, en nuestro caso hemos elegido los módulos: **Sitio web Eventos CRM Ventas Facturación Contabilidad Proyecto Documentos Marketing por correo electrónico y Marketing social**. Si lo has hecho bien la pantalla debería de quedar así:
    ![Seleccionar apps](../assets/img/03-instalacion/paso02_seleccionar-apps.png "Seleccionar apps")
@@ -22,16 +24,20 @@ En este punto vamos a aprender a instalar Odoo en cloud, para este ejemplo usare
    Es importante si estás haciendo la prueba gratuita comprobar como bien dice en la captura **Prueba gratuita de 15 días** justo debajo de las aplicaciones seleccionadas, después pinchamos en **"Continuar"**.
 
    Tras esto nos llevará a una sección donde nos pedirán nuestros datos y un correo, ahí pondremos el correo que creamos para la prueba de 15 días gratuita, después pincharemos en el botón que dice **"Empezar ahora"**.
+   
+   ---
 3. **Instalación de Odoo**.
    Ahora Odoo nos dará la bienvenida empezando a instalarse, además de hacernos unas preguntas para la personalización de nuestro sitio web, pero lo importante viene ahora **¡¡OJO!!** cuando hayamos terminado con las preguntas y nos haya llevado a una nueva ventana donde se nos crea una página web, buscaremos el siguiente botón arriba a la derecha que dice **"Activación pendiente"**:
 
    ![Activar correo](../assets/img/03-instalacion/paso03_activación-correo.png)
-
+   
    Es para **verificar nuestro correo electrónico**, nos enviarán un correo para confirmar **o la base de datos será borrada en 3 horas**. Tras esto y ver el sitio web creado por Odoo nos interesa ir al **panel de módulos**, desde el sitio web puedes acceder desde un pequeño panel desplegable en la esquina superior izquierda de la pantalla, haremos click en el botón morado que con el cursor encima dice **"Ir a sus aplicaciones de Odoo"**.
    ![Acceso panel de módulos](../assets/img/03-instalacion/paso03_acceso-pael-de-modulos.png)
 
    Al hacer click veremos la siguiente pantalla con nuestros módulos:
    ![Panel de Módulos](../assets/img/03-instalacion/paso03_vista-panel-de-modulos.png)
+   
+   ---
 4. **Instalar/Desinstalar apps** desde *Aplicaciones* (¡cuidado con los datos al desinstalar!).
    Desde el panel de módulos podemos instalar y desinstalar aplicaciones desde el siguiente menú al pinchar aquí donde dice **"Aplicaciones"**:
    ![Tienda Apps](../assets/img/03-instalacion/paso04_Tienda-de-aplicaciones.png)
@@ -40,6 +46,9 @@ En este punto vamos a aprender a instalar Odoo en cloud, para este ejemplo usare
 
    Si lo que quieres es **desinstalar una aplicación** desde el mismo menú pinchas en los **tres puntitos** al lado de la aplicación y pinchas en **"Desinstalar" ¡¡OJO!!**, Odoo nos va a preguntar si estamos seguros de querer instalarla, ya que si la borramos **perderemos todos los datos de ese módulo**, es recomendable hacer un **backup** antes de desisntalar nada, si estamos seguros sólo voleveremos a pincha en el botón que dice **"Desinstalar"**.
    ![Desinatalar Modulos](../assets/img/03-instalacion/paso04_desinstalar-modulos.png)
+
 ## Resultado esperado
 
-- Acceso al panel principal con las apps instaladas.
+- [ ] Dada de alta en Odoo.
+- [ ] Correo verificado para el alta de la Base de Datos.
+- [ ] Acceso al panel principal con las apps instaladas.
