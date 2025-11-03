@@ -31,7 +31,12 @@
   ![Escanear QR](../assets/img/04-ajustes_generales/2fa_escanear-qr.png)
 
   ## **Usuarios y compañías**: roles por módulo; en Enterprise se paga por usuario.
+  
+  Si queremos acceder al panel de **"Usuarios y Compañías"** deberemos entrar en **"Ajustes"** y arriba veremos la opción para acceder, haremos click y veremos que podemos acceder a **"Usuarios"** o a **"Compañías"**:
+  ![Acceso Usuarios y COmpañías](../assets/img/04-ajustes_generales/usuarios-companias_acceso.png)
 
+  Si accedemos al panel de Usuarios veremos una lista con todos los usuarios que tenemos en la base de datos junto con su nombre, el correo con el que inició sesión y su rol, además podemos encontrar un botón que dice **"Nuevo"** para crear un nuevo usuario:
+  ![Panel Usuarios](../assets/img/04-ajustes_generales/usuarios-companias_panel-usuarios.png)
   ## **Idiomas** y **diseño de documentos** (plantillas de factura).
 
   ## **Emails de resumen**: periodicidad y destinatarios.
