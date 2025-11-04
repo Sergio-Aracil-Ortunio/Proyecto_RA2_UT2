@@ -24,8 +24,12 @@
   Ahora pasaremos a configurar la autenticación de dos pasos (2FA), para ello desde el panel de preferencias, en la barra de apartados pincharemos en el que pone **"Seguridad"**, una vez ahí veremos un apartado con una opción que dice **"Habilitar la A2F"** y pincharemos ahí.
   ![Habilitar 2FA](../assets/img/04-ajustes_generales/2fa_habilitar.png)
 
+  ---
+
   Tras pinchar nos pedirá confirmar con nuestra contraseña, con la que nos dimos de alta en Odoo.
   ![Confirmar contraseña](../assets/img/04-ajustes_generales/2fa_confirmar-contrasenia.png)
+
+  ---
 
   Tras introducir nuestra contraseña nos aparecerá un QR que debemos escanear con nuestra aplicación de autenticación e introducir el código que nos aparezca en la app para habilitar la 2FA.
   ![Escanear QR](../assets/img/04-ajustes_generales/2fa_escanear-qr.png)
@@ -35,8 +39,12 @@
   Si queremos acceder al panel de **"Usuarios y Compañías"** deberemos entrar en **"Ajustes"** y arriba veremos la opción para acceder, haremos click y veremos que podemos acceder a **"Usuarios"** o a **"Compañías"**:
   ![Acceso Usuarios y Compañías](../assets/img/04-ajustes_generales/usuarios-companias_acceso.png)
 
+  ---
+
   Si accedemos al panel de Usuarios veremos una lista con todos los usuarios que tenemos en la base de datos junto con su nombre, el correo con el que inició sesión y su rol, además podemos encontrar un botón que dice **"Nuevo"** para crear un nuevo usuario:
   ![Panel Usuarios](../assets/img/04-ajustes_generales/usuarios-companias_panel-usuarios.png)
+
+  ---
 
   Si pinchamos en un usuario veremos un panel donde podemos conultar y modificar sus datos, modificar su rol principal, establecer a qué módulos tiene acceso y con qué rol para cada módulo, incluso en el apartado preferencias configurar el idioma, notificaciones, tema. Además se podrá modificar su calendario y en seguridad podemo cambiar su contraseña, activar la 2FA, proporcionarle claves API, claves de acceso y consultar los dispositivos en los que se ha conectado.
   ![Conf Usuario](../assets/img/04-ajustes_generales/usuarios-companias_conf-usuario.png)
@@ -44,11 +52,17 @@
   ###### **Roles por módulo (Ejemplo):**
   ![Roles Módulos](../assets/img/04-ajustes_generales/usuarios-companias_roles-modulos.png)
 
+  ---
+
   Podemos **crear un usuario** si pinchamos en **"Nuevo"** configurándolo desde cero:
   ![Crear Usuario](../assets/img/04-ajustes_generales/usuario-companias_crear_usuario.png)
 
+  ---
+
   Recuerda guardar aquí al realizar cualquier cambio en los usuarios:
   ![Guardar Usuario](../assets/img/04-ajustes_generales/usuarios-companias_guardar-usuario.png)
+
+  ---
 
   Cabe rercalcar en la versión Community puedes tener **usuarios ilimitados**, en la versión **Enterprise debe pagar por cada usuario que deseas crear**.
 
@@ -63,10 +77,14 @@
   ![Panel Idiomas](../assets/img/04-ajustes_generales/idiomas-docs_panel-idiomas.png)
   ![Añadir Idiomas](../assets/img/04-ajustes_generales/idiomas-docs_aniadir-idioma.png)
 
+  ---
+
   Cuando tengamos nuestro idioma pinchamos en **"Añadir"** y si todo ha salido bien dirá que se ha instalado correctamente y podremos establecer ese idioma para cualquier usuario.
 
   Podemos personalizar el diseño de nuestras facturas si vamos de nuevo a **"Ajustes"** en la sección de **"Compañías"** podremos pinchar en **"Configurar diseño de documento"**:
   ![Panel docs](../assets/img/04-ajustes_generales/idiomas-docs_panel-docs.png)
+
+  ---
 
   Una vez dentro podremos personalizar el diseño de nuestras facturas con diferente plantillas, combiando el fondo, la fuente, añadiendo un logo etc.:
   ![Personalizar docs](../assets/img/04-ajustes_generales/idiomas-docs_personalizar-docs.png)
@@ -76,11 +94,17 @@
   Para configurar los correos de resumen en **"Ajustes"** tenemos otra sección que es **"Correos electrónicos"**, desde ahí pincharemos en **"Configurar correos electrónicos del resumen"**.
   ![Panel correos resumen](../assets/img/04-ajustes_generales/emails-resumen_panel.png)
 
+  ---
+
   Dentro veremos una lista con todos los informes que nos llegan y con qué frecuencia:
   ![Lista informes](../assets/img/04-ajustes_generales/emails-resumen_lista-informes.png)
 
+  ---
+
   Si abrimos uno podemos configurar la frecuencia con la que nos llega ese informe, el título, fecha del siguiente informe y qué datos de qué módulos queremos que nos lleguen. 
   ![Conf informe](../assets/img/04-ajustes_generales/emails-resumen_conf.png)
+
+  ---
 
   En el apartado **"Destinatarios"** podemos configurar a quién le llegará este informe añadiendo nuevas líneas de destino.
   ![Destinatarios](../assets/img/04-ajustes_generales/emails-resumen_destinatarios.png)
