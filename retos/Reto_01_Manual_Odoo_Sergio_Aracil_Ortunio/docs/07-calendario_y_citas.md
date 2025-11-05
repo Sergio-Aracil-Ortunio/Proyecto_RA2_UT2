@@ -114,6 +114,7 @@ Hay un apartado de preguntas para hacerle al usuario antes de la cita establecie
 ---
 
 Una vez configurado todo pincharemos en **"Compartir"** y nos aparecerá el enlace de la cita que podremos copiar, este enlace será en el que entre el usuario rellenando los campos de horario, datos y preguntas y al finalizar habrá creado una cita que ambos verán en su calendario.
+
 ![Enlace](../assets/img/07-calendario_y_citas/citas_enlace.png)
 ![Cita programada](../assets/img/07-calendario_y_citas/citas_cita-programada.png)
 ![Cita reservada](../assets/img/07-calendario_y_citas/citas_cita-reservada.png)
