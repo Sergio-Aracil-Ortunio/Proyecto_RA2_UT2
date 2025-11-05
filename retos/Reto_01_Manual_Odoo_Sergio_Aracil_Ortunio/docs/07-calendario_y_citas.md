@@ -93,3 +93,27 @@ Dentro de la llamado podemos compartir pantalla, en los tres iconos de la derech
 ![Llamada](../assets/img/07-calendario_y_citas/odoo-meet_interfaz.png)
 
 ## **Módulo Citas** (Enterprise): enlaces públicos, buffers, preguntas previas.
+El módulo de citas es de pago y debemos instalarlo manualmente, con él podemos ofrecer que una persona se apunte para darle un servicio o un espacio privado donde interactuar y atenderle.
+![Módulo](../assets/img/07-calendario_y_citas/citas_modulo.png)
+
+---
+
+Dentro podemos el tipo de cita que queremos reservar si es para una reunión, para una llamada, una mesa, asientos de eventos etc.
+![Tipos citas](../assets/img/07-calendario_y_citas/citas_tipos-citas.png)
+
+---
+
+Una vez seleccionada la cita, podemos ponerle un **título, la duración, ubicación, enlace a videollamada** si la hubiese, incluso editar la **disponibilidad** que aparece por defecto.
+![Panel cita](../assets/img/07-calendario_y_citas/citas_panel-cita.png)
+
+---
+
+Hay un apartado de preguntas para hacerle al usuario antes de la cita estableciendo el tipo de resupuesta que se espera, la resupuesta que te da y un campo que marca si la respuesta a esa pregunta es obligatoria.
+![Preguntas](../assets/img/07-calendario_y_citas/citas_preguntas.png)
+
+---
+
+Una vez configurado todo pincharemos en **"Compartir"** y nos aparecerá el enlace de la cita que podremos copiar, este enlace será en el que entre el usuario rellenando los campos de horario, datos y preguntas y al finalizar habrá creado una cita que ambos verán en su calendario.
+![Enlace](../assets/img/07-calendario_y_citas/citas_enlace.png)
+![Cita programada](../assets/img/07-calendario_y_citas/citas_cita-programada.png)
+![Cita reservada](../assets/img/07-calendario_y_citas/citas_cita-reservada.png)
