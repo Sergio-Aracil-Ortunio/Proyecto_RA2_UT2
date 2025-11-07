@@ -1,12 +1,12 @@
 # 08 — Proyectos (Kanban)
 
-
 - [Proyectos, etapas, tareas, **subtareas**.](#proyectos-etapas-tareas-subtareas)
 - [**Tareas recurrentes**, **dependencias**, **hitos**.](#tareas-recurrentes-dependencias-hitos)
 - [Vistas: tarjetas, lista, calendario propio.](#vistas-tarjetas-lista-calendario-propio)
 - [Registro rápido de actividades y **calificación del cliente**.](#registro-rápido-de-actividades-y-calificación-del-cliente)
 
 ## Proyectos, etapas, tareas, **subtareas**.
+
 Vamos a entrar al módulo de **"Proyecto"**.
 
 ![Proyecto módulo](../assets/img/08-proyectos/proyecto_modulo.png)
@@ -60,6 +60,7 @@ Ahora nuestros proyectos se ven categorizados por estas etapas predefinidas:
 ![Categorización](../assets/img/08-proyectos/proyecto_categorizacion.png)
 
 ## **Tareas recurrentes**, **dependencias**, **hitos**.
+
 Vamos a definir tareas recurrentes, estas son tareas que se seguirán haciendo constantemente una y otra vez hasta cuando nostros definamos. Para ello entramos en **"Proyecto"** y en los tres puntitos pinchamos en los ajustes.
 
 ![Ajustes](../assets/img/08-proyectos/proyecto_acceso-recurrentes.png)
@@ -96,9 +97,38 @@ Volviendo de nuevo a los ajustes de **"Proyecto"** encontramos en el mismo apart
 
 ---
 
-Podemos ver 
+Podemos ver los hitos actuales si vamos al panel de proyectos, pinchamos en los tres puntitos del proyecto del que queramos ver sus hitos, y picharemos en **"Hitos"** ahí verás el panel con todos tus hitos.
+![Panel hitos](../assets/img/08-proyectos/hitos_panel.png)
+
+---
+
+Si pinchas en **"Nuevo"** podrás crear un hito, para ello rellenamos los campos para darle un nombre, una fecha límite y una casilla que indica si se alcanzó el hito o no, al finaliza pincha en **"Guardar"**.
+![Crear hito](../assets/img/08-proyectos/hitos_crear.png)
 
 ## Vistas: tarjetas, lista, calendario propio.
 
+Una vez dentro de un proyecto puedes cambiar la vista de tu proyecto arriba a la derecha pudiendo cambiar la vista a **"Kanban"**, **"Lista"**, **"Calendario"** etc.
+![Elegir vista](../assets/img/08-proyectos/vistas_elegir.png)
+
+Vista Kanban (Etiqueta):
+![Vista etiqueta](../assets/img/08-proyectos/vistas_etiqueta.png)
+
+Vista Lista:
+![Vista lista](../assets/img/08-proyectos/vista_lista.png)
+
+Vista Calendario:
+![Vista calendario](../assets/img/08-proyectos/vista_calendario.png)
 
 ## Registro rápido de actividades y **calificación del cliente**.
+
+Para visualizar rápidamente las tareas podemos ir pinchar dentro del módulo de **"Proyecto"** arriba en **Tareas**, pudiendo elegir entre ver **"Mis Tareas"** o **"Todas las tareas"**.
+![Panel tareas](../assets/img/08-proyectos/tareas_panel.png)
+
+Así puedes visualizar tus tareas:
+![Mis tareas](../assets/img/08-proyectos/tareas_mis-tareas.png)
+
+Así verás todas las tareas:
+![Todas las tareas](../assets/img/08-proyectos/tareas_todas-las-tareas.png)
+
+---
+
