@@ -110,3 +110,10 @@ Luego volvemos a Odoo donde lo habíamos dejado, desde la lista de proveedores p
 
 Si ahora volvemos a **"Ajustes"** y busamos el apartado de **"Correos electrónicos"** habilitamos la casilla **"Utilizar servidores de correo electrónico personalizados"** y abajo veremos unos apartados para insertar un ID y un secreto, son los mismos que conseguimos antes, los copiamos y pegamos ahí y guardamos.
 ![Servidor de correo](../assets/img/05-integracion_gmail/copiar-id_gmail-server.png)
+
+## Resultado esperado
+
+- [ ] Plugin de Gmail activado.
+- [ ] Habilitar API.
+- [ ] Copiar Client ID/Secret.
+

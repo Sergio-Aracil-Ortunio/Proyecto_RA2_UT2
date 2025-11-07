@@ -68,5 +68,5 @@ Para dar acceso al portal debes seleccionar un contacto o varios en el recuadro 
 
 ---
 
-Se abrirá una ventana, selecciona los contactos que estarán en la lista que vayan a tener acceso al portal, el correo debe ser único y válido, si alguno coincide con alguno que ya esté en la lista se indicará.
+Se abrirá una ventana, selecciona los contactos que estarán en la lista que vayan a tener acceso al portal, el correo debe ser único y válido, si alguno coincide con alguno que ya esté en la lista se indicará, los que no estén te saldrá un botón que diga **"Dar acceso"**, y en el caso de los que lo tienen **"Revocar acceso"** o **"Volver a invitar"**.
 ![Añadir contacto portal](../assets/img/06-contactos/aniadir-contacto-portal.png)

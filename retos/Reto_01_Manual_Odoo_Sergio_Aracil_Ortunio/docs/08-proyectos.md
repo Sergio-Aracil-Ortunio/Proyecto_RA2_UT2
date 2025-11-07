@@ -90,9 +90,13 @@ Entramos en una de nuestras tareas, nos aparece una nueva pestaña que pone **"B
 
 ---
 
-Volviendo de nuevo a los ajustes del proyecto encontramos en el mismo apartado la casilla de **"Hitos"** la cuál marcaremos, estos hitos definen los principales puntos que se deben cumplir y realizar que determinan el éxito del proyeto.
+Volviendo de nuevo a los ajustes de **"Proyecto"** encontramos en el mismo apartado la casilla de **"Hitos"** la cuál marcaremos, estos hitos definen los principales puntos que se deben cumplir y realizar que determinan el éxito del proyeto.
 
 ![Habilitar hitos](../assets/img/08-proyectos/hitos_habilitar.png)
+
+---
+
+Podemos ver 
 
 ## Vistas: tarjetas, lista, calendario propio.
 

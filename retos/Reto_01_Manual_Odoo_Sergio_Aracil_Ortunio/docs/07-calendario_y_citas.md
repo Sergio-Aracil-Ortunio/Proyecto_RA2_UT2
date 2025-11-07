@@ -118,3 +118,8 @@ Una vez configurado todo pincharemos en **"Compartir"** y nos aparecerá el enla
 ![Enlace](../assets/img/07-calendario_y_citas/citas_enlace.png)
 ![Cita programada](../assets/img/07-calendario_y_citas/citas_cita-programada.png)
 ![Cita reservada](../assets/img/07-calendario_y_citas/citas_cita-reservada.png)
+
+## Resultado esperado
+
+- [ ] Habilitar API de Google Calendar.
+- [ ] Copiar Client ID/Secret.
