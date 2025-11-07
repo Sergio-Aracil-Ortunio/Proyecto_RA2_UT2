@@ -132,3 +132,10 @@ Así verás todas las tareas:
 
 ---
 
+Para ver la calificación de clientes entramos en un proyecto, arriba pinchamos en **"Informes"** y se nos abrirá un desplegable y picncharemos en **"Clificación de clientes"**.
+![Calificación de clientes](../assets/img/08-proyectos/calificacion_acceso.png)
+
+---
+
+Así se verá el panel con las calificaciones, nuestro caso no tenemos aún.
+![Panel calificaciones](../assets/img/08-proyectos/calificacion_panel.png)
