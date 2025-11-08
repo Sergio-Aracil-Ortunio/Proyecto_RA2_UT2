@@ -1,4 +1,4 @@
-# Manual de Odoo — {Nombre Apellidos}
+# Manual de Odoo — Sergio Aracil Ortuño
 
 **Reto:** Manual_Odoo_Sergio_Aracil_Ortuño
 **Proyecto:** Proyecto_RA2_UT2
