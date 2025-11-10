@@ -11,7 +11,7 @@
    El usuario está definido como **postgres** por defecto.
    - Daremos a todo **"siguiente"**, y pondremos un contraseña segura (anota ésta y el puerto).
    ![PostgreSQL asistente](../assets/img/04-postgresql_windows/02_porstgresql-asistente.png)
-3. Comprueba que el **servicio de PostgreSQL** está en ejecución (puedes hacerlo abriendo **"Services"** en Windows).
+3. Comprueba que el **servicio de PostgreSQL** está en ejecución (puedes hacerlo abriendo **"Servicios"** en Windows).
 ![Comprobar servicio](../assets/img/04-postgresql_windows/02_comprobar-servicio.png)
 
 > Resultado esperado: PostgreSQL instalado y funcionando (usuario/puerto guardados).
