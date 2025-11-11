@@ -11,7 +11,7 @@
 3. Si se solicita, configura la conexión a **PostgreSQL**.
 4. Completa la instalación y finaliza el asistente.
 
-![Asistente Odoo](../assets/img/05-instalacion_odoo/04_asistente-finalizado.png")
+![Asistente Odoo](../assets/img/05-instalacion_odoo/04_asistente-finalizado.png)
 
 ![Finalizar](../assets/img/05-instalacion_odoo/04_finish.png)
 
