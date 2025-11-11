@@ -7,6 +7,6 @@ Aquí puedes encontrar todas las versiones estables de Odoo en nuestro caso vamo
 
 ## 2. Descarga la **versión estable** que vayas a usar en clase (anota la **versión exacta**).
 Dberías tener un archivo .exe como este:
-   - ![Descarga](../assets/img/03-descarga_instalador/02_odoo-exe.png)
+![Descarga](../assets/img/03-descarga_instalador/02_odoo-exe.png)
 
 > Resultado esperado: fichero `odoo_setup_<version>.exe` en tu equipo.
