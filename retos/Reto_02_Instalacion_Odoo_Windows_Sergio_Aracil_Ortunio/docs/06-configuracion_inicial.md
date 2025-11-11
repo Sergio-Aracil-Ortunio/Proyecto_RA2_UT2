@@ -2,6 +2,7 @@
 
 1. Localiza archivos de **configuración** (si aplica) y el puerto por defecto (ej. `8069`).
 En la siguiente ruta encontrarás los archivos de configuración, especialmente **odoo.conf**
+
 ![Archivos de configuración](../assets/img/06-configuracion_inicial/01_archinvos-conf.png)
 
     Dentro de odoo.conf en esta línea encontramos el puerto por defecto:
