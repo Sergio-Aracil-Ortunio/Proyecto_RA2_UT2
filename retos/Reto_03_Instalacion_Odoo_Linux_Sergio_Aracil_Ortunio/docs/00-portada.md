@@ -1,5 +1,5 @@
-# Instalación de Odoo en Linux — {Nombre Apellidos}
-**Reto:** Reto_03_Instalacion_Odoo_Linux_{Nombre}_{Apellidos}  
+# Instalación de Odoo en Linux — Sergio Aracil Ortuño
+**Reto:** Reto_03_Instalacion_Odoo_Linux_Sergio_Aracil_Ortunio  
 **Proyecto:** Proyecto_RA2_UT2  
-**Fecha:** {YYYY-MM-DD}
-**Distro:** {Ubuntu 22.04 / Debian 12 / …}
+**Fecha:** 2025-11-12
+**Distro:** Ubuntu Desktop 24.04.03 LTS 
