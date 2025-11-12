@@ -6,8 +6,8 @@
    ```
    ```ini
    [options]
-   db_host = False
-   db_port = False
+   db_host = 127.0.0.1
+   db_port = 5432
    db_user = odoo
    db_password = False
    addons_path = /opt/odoo/odoo-src/addons
@@ -19,4 +19,4 @@
    sudo mkdir -p /var/log/odoo && sudo chown odoo:odoo /var/log/odoo
    ```
 
-- [ ] Configuración mínima funcional creada.
+- [ ]Configuración mínima funcional creada.
