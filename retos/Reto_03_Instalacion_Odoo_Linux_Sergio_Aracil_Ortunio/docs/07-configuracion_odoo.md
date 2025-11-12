@@ -1,6 +1,9 @@
 # 07 — Configuración de Odoo (`/etc/odoo/odoo.conf`)
 
 1. Crea/edita el archivo de configuración con:
+   ```bash
+   sudo nano /etc/odoo.conf
+   ```
    ```ini
    [options]
    db_host = False
@@ -16,4 +19,4 @@
    sudo mkdir -p /var/log/odoo && sudo chown odoo:odoo /var/log/odoo
    ```
 
-> Resultado esperado: configuración mínima funcional creada.
+- [ ] Configuración mínima funcional creada.
