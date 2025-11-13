@@ -1,33 +1,21 @@
 # 06 — Instalación de Odoo
 
-## Desde código fuente (git)
-1. Crea usuario del sistema `odoo` (sin shell de login si prefieres):
+## Paquete oficial (repositorio Odoo)
+1. Añade repositorio/clave y luego instala `odoo`:
    ```bash
-   sudo useradd -m -d /opt/odoo -U -r -s /bin/bash odoo
+   # (Ejemplo orientativo — ajusta a la versión que uses)
+   wget -q -O - https://nightly.odoo.com/odoo.key | 
+   sudo gpg --dearmor -o /usr/share/keyrings/odoo-archive-keyring.gpg
+   echo "deb [signed-by=/usr/share/keyrings/odoo-archive-keyring.gpg] https://nightly.odoo.com/19.0/nightly/deb/ ./" | 
+   sudo tee /etc/apt/sources.list.d/odoo.list
+   sudo apt-get update && sudo apt-get install odoo
    ```
-   ![Crear usuario de odoo](../assets/img/06-instalacion_odoo/01_crear-usuario-odoo.png)
-2. Instalamos git y :
-   Primeramente necesitamos tener instalado git:
+   ![Añadir repositorio](../assets/img/06-instalacion_odoo/01_aniadir-repositorio.png)
+
+2. Crea usuario odoo:
    ```bash
-   sudo apt install -y git
+   sudo adduser --system --home=/opt/odoo --gorup odoo
    ```
-   ![Instalar git](../assets/img/06-instalacion_odoo/02_instalar-git.png)
-
-   ---
-
-   Debemos instalar **python3.12-venv** a pesar de que python ya viene instalado ya que el módulo -venv no siempre viene preinstalado.
-   ![Instalar python3.12-venv](../assets/img/06-instalacion_odoo/02_instalar-python3.12-venv.png)
-
-   ---
-
-   Clonamos el código fuente y creamos el entorno virtual:
-   ```bash
-   sudo -u odoo -H bash -c 'git clone https://github.com/odoo/odoo.git /opt/odoo/odoo-src -b <version>'
-   sudo -u odoo -H bash -c 'python3 -m venv /opt/odoo/venv && /opt/odoo/venv/bin/pip install -U pip wheel'
-   sudo -u odoo -H bash -c '/opt/odoo/venv/bin/pip install -r /opt/odoo/odoo-src/requirements.txt'
-   ```
-   ![Clonar repo](../assets/img/06-instalacion_odoo/02_clonar-repo.png)
-   ![Crear entorno virtual](../assets/img/06-instalacion_odoo/02_crear-entorno.png)
-   ![Instalar dependencias en el entorno](../assets/img/06-instalacion_odoo/02_instalar-dependencias.png)
+   ![Crear usuario odoo](../assets/img/06-instalacion_odoo/02_crear-usuario-odoo.png)
 
 - [ ] Binarios/código de Odoo instalados.

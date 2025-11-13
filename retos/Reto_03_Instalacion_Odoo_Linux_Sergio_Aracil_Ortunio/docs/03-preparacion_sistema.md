@@ -3,7 +3,7 @@
 1. Actualiza índices y paquetes:
 
    ```bash
-   sudo apt update && sudo apt upgrade
+   sudo apt update && sudo apt upgrade -y
    ```
    ![Update/Upgrade](../assets/img/03-preparacion_sistema/01_update-upgrade.png)
 
