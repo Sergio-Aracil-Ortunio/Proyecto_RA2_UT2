@@ -2,17 +2,18 @@
 
 1. Crea/edita el archivo de configuración con:
    ```bash
-   sudo nano /etc/odoo.conf
+   sudo nano /etc/odoo/odoo.conf
    ```
    ```ini
    [options]
-   db_host = 127.0.0.1
-   db_port = 5432
+   ; This is the password that allows database operations:
+   ; admin_passwd = admin
+   db_host = False
+   db_port = False
    db_user = odoo
    db_password = False
-   addons_path = /opt/odoo/odoo-src/addons
-   logfile = /var/log/odoo/odoo.log
-   xmlrpc_port = 8069
+   ;addons_path = /usr/lib/python3/dist-packages/odoo/addons
+   default_productivity_apps = True
    ```
 2. Crea carpetas y permisos si procede:
    ```bash

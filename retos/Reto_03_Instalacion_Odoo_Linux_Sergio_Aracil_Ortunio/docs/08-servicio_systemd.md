@@ -2,19 +2,19 @@
 
 1. Crea el servicio en `/etc/systemd/system/odoo.service`:
    ```bash
-   sudo nano /etc/systemd/system/odoo.service
+   sudo nano /lib/systemd/system/odoo.service
    ```
    ```ini
    [Unit]
-   Description=Odoo Service
-   After=network.target postgresql.service
+   Description=Odoo Open Source ERP and CRM
+   After=network.target
 
    [Service]
    Type=simple
    User=odoo
    Group=odoo
-   ExecStart=/opt/odoo/venv/bin/python /opt/odoo/odoo-src/odoo-bin -c /etc/odoo.conf
-   Restart=on-failure
+   ExecStart=/usr/bin/odoo --config /etc/odoo/odoo.conf --logfile /var/log/odoo/odoo-server.log
+   KillMode=mixed
 
    [Install]
    WantedBy=multi-user.target

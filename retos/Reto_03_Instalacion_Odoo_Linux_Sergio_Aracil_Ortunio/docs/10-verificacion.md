@@ -1,8 +1,8 @@
 # 10 — Verificación de acceso
 
 - Comprueba el **dashboard** de Odoo en el navegador.
+    ![Dashboard](../assets/img/10-verificacion/01_dashboard.png)
 - Captura con **fecha/hora** visibles.
+    ![Fecha y hora](../assets/img/10-verificacion/02_fecha-hora.png)
 
-![Dashboard](../assets/img/10-verificacion/paso01_dashboard.png "Panel principal Odoo")
-
-> Resultado esperado: acceso confirmado a `localhost:8069`.
+- [ ] Acceso confirmado a `localhost:8069`.
